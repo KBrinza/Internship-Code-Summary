@@ -13,9 +13,9 @@ participated in a 2-week sprint.
  This hands-on experience included Agile/Scrum practices including:  
  participating in daily stand-ups, a sprint retrospective, and using Azure DevOps to complete stories. 
  I was tasked with creating a “Lifestyle” brand website that’s meant to focus on an area’s food scene. 
- During this project, I used HTML, CSS, and JavaScript skills and techniques learned through coursework. 
+ During this project, I used HTML, CSS, and JavaScript techniques learned through coursework. 
  I then expanded my knowledge by taking on new web-development concepts for this apprenticeship. 
- I finished the first project three days ahead of schedule and was assigned a second project called Cookery.
+ I finished the first project three days ahead of schedule and was assigned a second project called "Cookery."
 
 Below you will find two sections of stories for the projects I worked on. This first is for the LifeStyle 
 website, and the second is for a site called “Cookery”. With each description, you will find sections of 
