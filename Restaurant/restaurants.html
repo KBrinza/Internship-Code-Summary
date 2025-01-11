@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Culinary Guide</title>
+  <mata charset="UTF-8"></mata>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS STYLESHEET LINK-->
+  <link href="static/stylesheet.css" rel="stylesheet">
+  <!--BOOTSTRAP LINK-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Fontawesome-->
+  <script src="https://kit.fontawesome.com/3cfcb75117.js" crossorigin="anonymous"></script>
+  <!--JQUERY-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body class="dark-mode">
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LIFESTYLE</a>
+      <button class="navbar-toggler d-lg-none" id="menuToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#restaurants">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bars">Bars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bakeries">Dessert</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button id="themeToggle">Light Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Popup Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <span class="close-btn" id="closeMenu">&times;</span>
+    <div class="menu-header">Menu</div>
+    <a href="#restaurants">Restaurants</a>
+    <a href="#bars">Bars</a>
+    <a href="#bakeries">Dessert</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <!--END NAVBAR-->
+
+  <!--HEADER-->
+  <div class="header-container">
+    <!--header pic-->
+    <img src="static/Images/table.jpg" alt="People sitting around restaurant table" style="width:100%;">
+    <div class="color-overlay"></div>
+    <div class="overlay-text">
+      <h1 class="header-one drop-in-top">Culinary Guide</h1>
+      <!--Intro paragraph-->
+      <p class="drop-in-bottom">This is your guide to Portland's must-try establishments.<br>
+        From Burgers to wine, we've got you covered!</p>
+    </div>
+  </div>
+  <!--END HEADER-->
+
+  <br>
+  <!--CONTENT-->
+  <!--Columns - three sections for content-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <!--RESTAURANT REC-->
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="static/Images/sushi.jpg" alt="Image of sushi" class="carousel-image">
+              <div class="caption">Sushi</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/burger.jpg" alt="Image of a burger" class="carousel-image">
+              <div class="caption">Burgers</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/vegan.jpg" alt="Image of vegan food" class="carousel-image">
+              <div class="caption">Vegan</div>
+            </div>
+          </div>
+          <button class="carousel-button prev">&lt;</button>
+          <button class="carousel-button next">&gt;</button>
+          <h2 id="restaurants">Restaurants</h2>
+        </div>
+        <br>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col">
+        <!--BAR RECS-->
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="static/Images/whiskey.jpg" alt="Image of a whiskey drink" class="carousel-image">
+              <div class="caption">Whiskey</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/wine.jpg" alt="Image of wine glass" class="carousel-image">
+              <div class="caption">Wine</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/sportsbar.jpg" alt="Image of beer taps" class="carousel-image">
+              <div class="caption">Beer</div>
+            </div>
+          </div>
+          <button class="carousel-button prev">&lt;</button>
+          <button class="carousel-button next">&gt;</button>
+          <h2 id="bars">Bars</h2>
+        </div>
+        <br>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col">
+        <!--BAKERY CAFE RECS-->
+        <div class="carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="static/Images/coffee.jpg" alt="Image of coffee cup" class="carousel-image">
+              <div class="caption">Cafés</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/bakery.jpg" alt="Image of a bakery" class="carousel-image">
+              <div class="caption">Bakeries</div>
+            </div>
+            <div class="carousel-slide">
+              <img src="static/Images/chocolate.jpg" alt="Image of a chocolate shop" class="carousel-image">
+              <div class="caption">Chocolates</div>
+            </div>
+          </div>
+          <button class="carousel-button prev">&lt;</button>
+          <button class="carousel-button next">&gt;</button>
+          <h2 id="bakeries">Dessert</h2>
+        </div>
+        <br>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <!--END CONTENT-->
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="footer-column">
+      <!-- Contact Info -->
+      <h5>The Tech Academy</h5>
+      <p id="p-footer">
+        310 SW 4th Ave Suite 200,<br> Portland, OR 97204, USA<br><br>
+        Phone: +1 (503) 206-6915 <br>
+        Email: info@example.com</p>
+      <a href="#" class="fa fa-facebook-square" style="font-size:20px;color:#007bff;text-decoration:none;"></a>
+      <a href="#" class="fa fa-twitter-square" style="font-size:20px;color:#007bff;text-decoration:none;"></a>
+      <a href="#" class="fa fa-instagram" style="font-size:20px;color:#007bff;text-decoration:none;"></a>
+      <a href="#" class="fa fa-linkedin-square" style="font-size:20px;color:#007bff;text-decoration:none;"></a>
+    </div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i style='font-size:24px'
+        class='fas'>&#xf106;</i></button>
+
+    <!-- Popup Contact Form -->
+    <div class="footer-column" id="contact">
+      <div class="contact-container">
+        <button id="open-popup" class="popup-button">Contact Us</button>
+        <div id="popup-form" class="popup">
+          <div class="popup-content">
+            <span id="close-popup" class="close-button">&times;</span>
+            <h2 class="fh2">Contact Us</h2>
+            <form action="https://formspree.io/f/xrbgqkow" method="POST" id="contact-form">
+              <!-- Using https://formspree.io/ to send contact form to email address -->
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <div class="check-box">
+                <input type="checkbox" required>
+                <label for="agree">Add me to the LifeStyle mailing list!</label>
+              </div>
+              <button type="submit">Submit</button>
+              <p id="form-message" style="display: none; color: rgb(0, 0, 0);">Thanks for your message!</p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p id="p-footer">&copy; <span id="copyright-year"></span> Copyright The Tech Academy. <br>All Rights Reserved</p>
+    </div>
+
+  </footer>
+  <!--END FOOTER-->
+
+  <!--javascript-->
+  <script src="static/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
