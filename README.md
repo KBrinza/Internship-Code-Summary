@@ -15,8 +15,7 @@ participated in a 2-week sprint.
  I was tasked with creating a “Lifestyle” brand website that’s meant to focus on an area’s food scene. 
  During this project, I used HTML, CSS, and JavaScript skills and techniques learned through coursework. 
  I then expanded my knowledge by taking on new web-development concepts for this apprenticeship. 
- I finished the first project three days ahead of schedule and was assigned a second project in which I 
- was able to complete within three days.
+ I finished the first project three days ahead of schedule and was assigned a second project called Cookery.
 
 Below you will find two sections of stories for the projects I worked on. This first is for the LifeStyle 
 website, and the second is for a site called “Cookery”. With each description, you will find sections of 
@@ -45,9 +44,12 @@ Hero Banner / Header photo with text overlay
 
 <h2>Implement a grid system</h2>
 In this story, I created a grid layout using Bootstrap. I added basic content to my layout, including three carousels on the same row. I also added a smooth scrolling effect to the page. 
+<br><br>
+<img src="LifeStyle-Restaurant-Samples/Misc/Mobile-Light.png">
 
 <h2>Create a signup form</h2>
-Here I created a working popup contact form using Formspree. It sits at the bottom of the page in the footer and was styled using Bootstrap and CSS properties. I also implemented JavaScript to prevent Formspree from loading a new page once the submit button is clicked. 
+Here I created a working popup contact form using Formspree. It sits at the bottom of the page in the footer and was styled using Bootstrap and CSS properties. I also implemented JavaScript to prevent Formspree from loading a new page once the submit button is clicked. <br><br>
+<img src="LifeStyle-Restaurant-Samples/Contact Form/StopFormspreePage-JS.png" width="500" height="500">
 
 <h2>Back To Top Button</h2>
 I was then tasked with creating a “back to top” button that sits fixed on the screen so when you scroll, the button will not move.  This task required the use of a Javascript function that gets called when the button is clicked and moves the user back to the top of the page. This also has a second function that gets called when the scroll bar moves. It uses console.log inside the function to test that it's getting called.  It also includes a logic statement to show the button when the scroll bar is at the bottom of the page, otherwise it remains hidden. 
@@ -58,23 +60,29 @@ This story is the one I found most challenging. I struggled to get dark mode to 
 <h2>Make your Page Responsive</h2>
 In this story I worked on making my page responsive so it is viewable on other devices like tablets, phones. In addition to what Bootstrap already had implemented, I added CSS media queries for various elements that would not have been included or had stylings overwritten. This is where I learned which parts of the site were not as responsive as I initially thought. For example, when viewed on smaller screen sizes, my navbar began to cut off part of my “header” text. I then went back to check both the navbar and header container to see where the problems are and adjust accordingly. 
 <br>
-This is also where I built and refined my mobile menu. Originally it was taking up the whole page, but after reading up on mobile menu design “best practices”, I reduced the width so the user can partially see where they are on the page. 
+<br>
+<img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/Navbar-CSS.png" width="500" height="500">
 
+This is also where I built and refined my mobile menu. Originally it was taking up the whole page, but after reading up on mobile menu design “best practices”, I reduced the width so the user can partially see where they are on the page. <br><br>
+<img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-CSS-Pt1.png" width="300" height="300">
+<img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-CSS-Pt2.png" width="300" height="300">
+<img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-Dark.png" width="163" height="300"><br>
 <h2>Create an Animation Feature</h2>
-Here I created a basic text animation using HTML & CSS. 
+Here I created a basic text animation using HTML & CSS. <br><br>
+<img src="LifeStyle-Restaurant-Samples/Header Text Animation/TextAnimation.gif">
 <br>
 <br>
 <h2>Cookery Stories</h2>
-Create CSS Variables & Import Google Font API’s
-Create a Navigation Menu
-Change Mobile Menu Icon
-Add Hover Trigger – Food Dropdown Menu
-Update Navigation Text Color
-Create Hero Banner
-Navigation Bar Sticky & Shrink On-Scroll
-Search Bar Creation & Placement (Non-working)
-Create Featured Recipe Section
-Update Featured Recipe
+Create CSS Variables & Import Google Font API’s<br>
+Create a Navigation Menu<br>
+Change Mobile Menu Icon<br>
+Add Hover Trigger – Food Dropdown Menu<br>
+Update Navigation Text Color<br>
+Create Hero Banner<br>
+Navigation Bar Sticky & Shrink On-Scroll<br>
+Search Bar Creation & Placement (Non-working)<br>
+Create Featured Recipe Section<br>
+Update Featured Recipe<br>
 <br>
 <br>
 <h2>Create CSS Variables & Import Google Font API’s</h2>
@@ -106,16 +114,16 @@ Box shadow 0 0 19 -2 black opacity 25%
 This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and negative margins. 
 
 <h2>Create Featured Recipe Section</h2>
+~ ~ ~ INFO TBD ~ ~ ~ 
 
 <h2>Update Featured Recipe</h2>
-
-
+~ ~ ~ INFO TBD ~ ~ ~ 
 
 <h2>Other Skills Learned</h2>
-* Utilizing Azure DevOps and Git for version control.<br>
-* Experienced a Scrum environment by participating in daily stand-ups and a sprint retrospective.<br>
-* Further enhance ability to research unfamiliar concepts and material. <br>
-* Further enhanced problem-solving skills through identifying and resolving errors.  <br>
+Utilizing Azure DevOps and Git for version control.<br>
+Experienced a Scrum environment by participating in daily stand-ups and a sprint retrospective.<br>
+Further enhance ability to research unfamiliar concepts and material. <br>
+Further enhanced problem-solving skills through identifying and resolving errors.  <br>
 
 </body>
 </html>
