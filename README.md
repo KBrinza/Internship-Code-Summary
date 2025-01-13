@@ -6,7 +6,7 @@
  </head>
 <body>
 <h1>Front-end Web Development Live Project</h1>
-<h2>Introduction</h2>
+<h2 id="Introduction">Introduction</h2>
 <p>My time at the Tech Academy included an internship with Prosper IT Consulting, during which I 
 participated in a 2-week sprint.
  This hands-on experience included Agile/Scrum practices including:  
@@ -81,57 +81,76 @@ Here I created a basic text animation using HTML & CSS. <br><br>
 Go back to <a href="#contents">Table of Contents</a>.
 
 <h2 id="cookery">Cookery Stories</h2>
-Create CSS Variables & Import Google Font API’s<br>
-Create a Navigation Menu<br>
-Change Mobile Menu Icon<br>
-Add Hover Trigger – Food Dropdown Menu<br>
-Update Navigation Text Color<br>
-Create Hero Banner<br>
-Navigation Bar Sticky & Shrink On-Scroll<br>
-Search Bar Creation & Placement (Non-working)<br>
-Create Featured Recipe Section<br>
-Update Featured Recipe<br>
-<br>
-<br>
-<h2>Create CSS Variables & Import Google Font API’s</h2>
+<ul> 
+  <li><a href="#variables">Create CSS Variables & Import Google Font API’s</a></li>
+  <li><a href="#navbar">Create a Navigation Menu</a></li>
+  <li><a href="#mobile">Change Mobile Menu Icon</a></li>
+  <li><a href="#trigger">Add Hover Trigger – Food Dropdown Menu</a></li>
+  <li><a href="#TextColor">Update Navigation Text Color</a></li>
+  <li><a href="#hero">Create Hero Banner</a></li>
+  <li><a href="#shrink">Navigation Bar Sticky & Shrink On-Scroll</a></li>
+  <li><a href="#search">Search Bar Creation & Placement (Non-working)</a></li>
+  <li><a href="#recipe">Create Featured Recipe Section</a></li>
+  <li><a href="#update">Update Featured Recipe</a></li>
+</ul>
+<h2 id="variables">Create CSS Variables & Import Google Font API’s</h2>
 This story involved researching and then creating root variables for CSS. I was excited to learn more about this as we briefly went over it in classwork and I then encountered it while researching and debugging in the LifeStyle website. We imported fonts from Google Fonts, something I was familiar with since we used it in practice a lot during our CSS drills. 
+<br>Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Create a Navigation Menu</h2>
+<h2 id="navbar">Create a Navigation Menu</h2>
 Here we had to create a Navigation Menu with a submenu using bootstrap. I then further styled it following the client parameters which included a dropshadow on the navbar, background and text colors, navbar height, font size and weight, and removing the down arrow from the submenu.
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Change Mobile Menu Icon</h2>
+<h2 id="mobile">Change Mobile Menu Icon</h2>
 This was a minor change the client asked for - changing the color of the mobile menu icon to match the site’s main background color. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Add Hover Trigger – Food Dropdown Menu</h2>
+<h2 id="trigger">Add Hover Trigger – Food Dropdown Menu</h2>
 This was another client change where they asked to add a hover trigger to the dropdown menu. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Update Navigation Text Color</h2>
+<h2 id="TextColor">Update Navigation Text Color</h2>
 Here the client wanted the text color on the navigation to change to the main-color  
 when they hover their mouse over each link.
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Create Hero Banner</h2>
+<h2 id="hero">Create Hero Banner</h2>
 In this story I created a Hero banner with text to the left of the screen and image to the right. The main parameter  was to have the photo touch the bottom of the Navbar and edge of the page. While I was able to make the visual design work, I struggled with the responsiveness of this element after I implemented the styling changes. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Navigation Bar Sticky & Shrink On-Scroll</h2>
+<h2 id="shrink">Navigation Bar Sticky & Shrink On-Scroll</h2>
 Here I ensured the navigation bar stays at the top of the page, but shrinks when the user scrolls down the page. This required the use of Jquery.
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Search Bar Creation & Placement</h2>
+<h2 id="search">Search Bar Creation & Placement</h2>
 In this story I created a non-working recipe search bar. The styling parameters were as follows:
 Search bar background color white, opacity 80%
 Box shadow 0 0 19 -2 black opacity 25%
 This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and negative margins. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Create Featured Recipe Section</h2>
+<h2 id="recipe">Create Featured Recipe Section</h2>
 The client wanted a featured recipe section that showcased a photo of the finished recipe, a brief description of the recipe, a button to view the recipe, and a bar at the bottom of the recipe car that holds social icons. Here I utilized Bootstrap Cards and Font Awesome. I again struggled with responsiveness here too, but ultimately I ran out of time. I plan to continue playing with this outside of my internship and will update later. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
-<h2>Update Featured Recipe</h2>
+<h2 id="update">Update Featured Recipe</h2>
 In this story update, the client wanted to add a hover effect to the “view recipe” button on the featured recipe card. The background color changes from green to grey when hovered over. 
+<br>
+Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2>Other Skills Learned</h2>
 Utilizing Azure DevOps and Git for version control.<br>
 Experienced a Scrum environment by participating in daily stand-ups and a sprint retrospective.<br>
 Further enhance ability to research unfamiliar concepts and material. <br>
 Further enhanced problem-solving skills through identifying and resolving errors.  <br>
-
+Go back to <a href="#Introduction">Top</a>.
 </body>
 </html>
