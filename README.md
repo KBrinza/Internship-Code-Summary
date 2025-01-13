@@ -130,10 +130,11 @@ Here I ensured the navigation bar stays at the top of the page, but shrinks when
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="search">Search Bar Creation & Placement</h2>
-In this story I created a non-working recipe search bar. The styling parameters were as follows:
+In this story I created a recipe search bar. This is strictly the search input and the bar it sits in. We were specifically told not to add any icons or function yet. 
+The styling parameters were as follows:
 Search bar background color white, opacity 80%
 Box shadow 0 0 19 -2 black opacity 25%
-This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and negative margins. 
+This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and margins. 
 <br><br>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
