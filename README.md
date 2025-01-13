@@ -114,10 +114,10 @@ Box shadow 0 0 19 -2 black opacity 25%
 This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and negative margins. 
 
 <h2>Create Featured Recipe Section</h2>
-~ ~ ~ INFO TBD ~ ~ ~ 
+The client wanted a featured recipe section that showcased a photo of the finished recipe, a brief description of the recipe, a button to view the recipe, and a bar at the bottom of the recipe car that holds social icons. Here I utilized Bootstrap Cards and Font Awesome. 
 
 <h2>Update Featured Recipe</h2>
-~ ~ ~ INFO TBD ~ ~ ~ 
+In this story update, the client wanted to add a hover effect to the “view recipe” button on the featured recipe card. The background color changes from green to grey when hovered over. 
 
 <h2>Other Skills Learned</h2>
 Utilizing Azure DevOps and Git for version control.<br>
