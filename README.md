@@ -21,19 +21,21 @@ Below you will find two sections of stories for the projects I worked on. This f
 website, and the second is for a site called “Cookery”. With each description, you will find sections of 
 code, photos and gifs of site elements.
 
-<h2>Front-end Web Development Stories</h2>
-LifeStyle (Culinary Guide)<br>
-Cookery
-<br>
-<br>
-<h2> LifeStyle Stories</h2>
-Creating Your Component<br>
-Implement a grid system<br>
-Create a signup form<br>
-Back To Top Button<br>
-Creating a Dark Theme<br>
-Make your Page Responsive<br>
-Create an Animation Feature
+<h2>Front-end Web Development Websites</h2>
+<ul>
+<li><a href="#lifestyle">LifeStyle (Culinary Guide)</a></li>
+<li><a href="#cookery">Cookery</a></li>
+</ul>
+<h2 id="lifestyle">LifeStyle Stories</h2>
+<ul>
+  <li>Creating Your Component</li>
+  <li>Implement a grid system</li>
+  <li>Create a signup form</li>
+  <li>Back To Top Button</li>
+  <li>Creating a Dark Theme</li>
+  <li>Make your Page Responsive</li>
+  <li>Create an Animation Feature</li>
+</ul>
 <br>
 <br>
 <h2>Creating Your Component</h2>
@@ -72,7 +74,7 @@ Here I created a basic text animation using HTML & CSS. <br><br>
 <img src="LifeStyle-Restaurant-Samples/Header Text Animation/TextAnimation.gif">
 <br>
 <br>
-<h2>Cookery Stories</h2>
+<h2 id="cookery">Cookery Stories</h2>
 Create CSS Variables & Import Google Font API’s<br>
 Create a Navigation Menu<br>
 Change Mobile Menu Icon<br>
@@ -92,7 +94,7 @@ This story involved researching and then creating root variables for CSS. I was 
 Here we had to create a Navigation Menu with a submenu using bootstrap. I then further styled it following the client parameters which included a dropshadow on the navbar, background and text colors, navbar height, font size and weight, and removing the down arrow from the submenu.
 
 <h2>Change Mobile Menu Icon</h2>
-This was a simple change the client asked for - changing the color of the mobile menu icon to match the site’s main background color. 
+This was a minor change the client asked for - changing the color of the mobile menu icon to match the site’s main background color. 
 
 <h2>Add Hover Trigger – Food Dropdown Menu</h2>
 This was another client change where they asked to add a hover trigger to the dropdown menu. 
@@ -114,7 +116,7 @@ Box shadow 0 0 19 -2 black opacity 25%
 This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and negative margins. 
 
 <h2>Create Featured Recipe Section</h2>
-The client wanted a featured recipe section that showcased a photo of the finished recipe, a brief description of the recipe, a button to view the recipe, and a bar at the bottom of the recipe car that holds social icons. Here I utilized Bootstrap Cards and Font Awesome. 
+The client wanted a featured recipe section that showcased a photo of the finished recipe, a brief description of the recipe, a button to view the recipe, and a bar at the bottom of the recipe car that holds social icons. Here I utilized Bootstrap Cards and Font Awesome. I again struggled with responsiveness here too, but ultimately I ran out of time. I plan to continue playing with this outside of my internship and will update later. 
 
 <h2>Update Featured Recipe</h2>
 In this story update, the client wanted to add a hover effect to the “view recipe” button on the featured recipe card. The background color changes from green to grey when hovered over. 
