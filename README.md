@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
 <body>
-<h1>Live Project</h1>
-<br>
+<h1>Front-end Web Development Live Project</h1>
 <h2>Introduction</h2>
 <p>My time at the Tech Academy included an internship with Prosper IT Consulting, during which I 
 participated in a 2-week sprint.
@@ -21,45 +20,50 @@ Below you will find two sections of stories for the projects I worked on. This f
 website, and the second is for a site called “Cookery”. With each description, you will find sections of 
 code, photos and gifs of site elements.
 
-<h2>Front-end Web Development Websites</h2>
+<h2 id="contents">Table of Contents</h2>
 <ul>
 <li><a href="#lifestyle">LifeStyle (Culinary Guide)</a></li>
 <li><a href="#cookery">Cookery</a></li>
 </ul>
 <h2 id="lifestyle">LifeStyle Stories</h2>
 <ul>
-  <li>Creating Your Component</li>
-  <li>Implement a grid system</li>
-  <li>Create a signup form</li>
-  <li>Back To Top Button</li>
-  <li>Creating a Dark Theme</li>
-  <li>Make your Page Responsive</li>
-  <li>Create an Animation Feature</li>
+  <li><a href="#Component">Creating Your Component</a></li>
+  <li><a href="grid">Implement a grid system</a></li>
+  <li><a href="form">Create a signup form</a></li>
+  <li><a href="topbutton">Back To Top Button</a></li>
+  <li><a href="dark">Creating a Dark Theme</a></li>
+  <li><a href="responsive">Make your Page Responsive</a></li>
+  <li><a href="animation">Create an Animation Feature</a></li>
 </ul>
-<br>
-<br>
-<h2>Creating Your Component</h2>
+<h2 id="Component">Creating Your Component</h2>
 In this story, I set up the basics of the website. I created component folders for style and script files, and images for the site.  Then I laid out my landing page with basic HTML which included:
 Meta data, links to Bootstrap, CSS stylesheet, JavaScript, etc.
 Body with navbar, footer, and background color. 
-Hero Banner / Header photo with text overlay 
+Hero Banner / Header photo with text overlay <br><br>
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
 
-<h2>Implement a grid system</h2>
+<h2 id="grid">Implement a grid system</h2>
 In this story, I created a grid layout using Bootstrap. I added basic content to my layout, including three carousels on the same row. I also added a smooth scrolling effect to the page. 
 <br><br>
 <img src="LifeStyle-Restaurant-Samples/Misc/Mobile-Light.png">
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
 
-<h2>Create a signup form</h2>
+<h2 id="form">Create a signup form</h2>
 Here I created a working popup contact form using Formspree. It sits at the bottom of the page in the footer and was styled using Bootstrap and CSS properties. I also implemented JavaScript to prevent Formspree from loading a new page once the submit button is clicked. <br><br>
 <img src="LifeStyle-Restaurant-Samples/Contact Form/StopFormspreePage-JS.png" width="500" height="500">
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
 
-<h2>Back To Top Button</h2>
+<h2 id="topbutton">Back To Top Button</h2>
 I was then tasked with creating a “back to top” button that sits fixed on the screen so when you scroll, the button will not move.  This task required the use of a Javascript function that gets called when the button is clicked and moves the user back to the top of the page. This also has a second function that gets called when the scroll bar moves. It uses console.log inside the function to test that it's getting called.  It also includes a logic statement to show the button when the scroll bar is at the bottom of the page, otherwise it remains hidden. 
+<br><br>
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
 
-<h2>Creating a Dark Theme</h2>
+<h2 id="dark">Creating a Dark Theme</h2>
 This story is the one I found most challenging. I struggled to get dark mode to apply to all elements at the same time. Eventually I realized I was grouping too many elements together in CSS, which was preventing dark mode from being applied to them. Once this was resolved, all elements added after this point easily had dark mode applied. 
+<br><br>
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
 
-<h2>Make your Page Responsive</h2>
+<h2 id="responsive">Make your Page Responsive</h2>
 In this story I worked on making my page responsive so it is viewable on other devices like tablets, phones. In addition to what Bootstrap already had implemented, I added CSS media queries for various elements that would not have been included or had stylings overwritten. This is where I learned which parts of the site were not as responsive as I initially thought. For example, when viewed on smaller screen sizes, my navbar began to cut off part of my “header” text. I then went back to check both the navbar and header container to see where the problems are and adjust accordingly. 
 <br>
 <br>
@@ -69,11 +73,13 @@ This is also where I built and refined my mobile menu. Originally it was taking 
 <img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-CSS-Pt1.png" width="300" height="300">
 <img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-CSS-Pt2.png" width="300" height="300">
 <img src="LifeStyle-Restaurant-Samples/Navbar and mobile menu/MobileMenu-Dark.png" width="163" height="300"><br>
-<h2>Create an Animation Feature</h2>
+Go back to <a href="#contents">Table of Contents</a> of jump down to <a href="#cookery">Cookery</a>.
+
+<h2 id="animation">Create an Animation Feature</h2>
 Here I created a basic text animation using HTML & CSS. <br><br>
 <img src="LifeStyle-Restaurant-Samples/Header Text Animation/TextAnimation.gif">
-<br>
-<br>
+Go back to <a href="#contents">Table of Contents</a>.
+
 <h2 id="cookery">Cookery Stories</h2>
 Create CSS Variables & Import Google Font API’s<br>
 Create a Navigation Menu<br>
