@@ -96,16 +96,20 @@ Go back to <a href="#contents">Table of Contents</a>.
 <h2 id="variables">Create CSS Variables & Import Google Font API’s</h2>
 This story involved researching and then creating root variables for CSS. I was excited to learn more about this as we briefly went over it in classwork and I then encountered it while researching and debugging in the LifeStyle website. We imported fonts from Google Fonts, something I was familiar with since we frequently used it in practice during our CSS drills. 
 <br><br>
-<img src="Cookery Samples/MISC/Root-CSS.png" width="300" height="268">
-<img src="Cookery Samples/MISC/GeneralStyling-CSS.png" width="300" height="152">
+<div>
+  <img src="Cookery Samples/MISC/Root-CSS.png" width="300" height="268">
+  <img src="Cookery Samples/MISC/GeneralStyling-CSS.png" width="300" height="152">
+</div>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="navbar">Create a Navigation Menu</h2>
 Here we had to create a Navigation Menu with a submenu using bootstrap. I then further styled it following the client parameters which included a dropshadow on the navbar, background and text colors, navbar height, font size and weight, and removing the down arrow from the submenu.
 <br><br>
-<img src="Cookery Samples/Navbar and Mobile Menu/Dropdown-CSS.png">
-<img src="Cookery Samples/Navbar and Mobile Menu/DropdownMenu-live.png" width="300" height="261">
-<img src="Cookery Samples/Navbar and Mobile Menu/NavbarHTML.png" width="500" height="503">
+<div>
+  <img src="Cookery Samples/Navbar and Mobile Menu/Dropdown-CSS.png">
+  <img src="Cookery Samples/Navbar and Mobile Menu/DropdownMenu-live.png" width="400" height="348">
+  <img src="Cookery Samples/Navbar and Mobile Menu/NavbarHTML.png" width="500" height="503">
+</div>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="mobile">Change Mobile Menu Icon</h2>
@@ -132,8 +136,9 @@ Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="
 <h2 id="shrink">Navigation Bar Sticky & Shrink On-Scroll</h2>
 Here I ensured the navigation bar stays at the top of the page, but shrinks when the user scrolls down the page. This required the use of Jquery.
 <br><br>
-<img src="Cookery Samples/Navbar and Mobile Menu/NavbarScrollFunction-JS.png">
-<img src="Cookery Samples/Navbar and Mobile Menu/Navbar-CSS.png">
+<div>
+  <img src="Cookery Samples/Navbar and Mobile Menu/NavbarScrollFunction-JS.png">
+</div>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="search">Search Bar Creation & Placement</h2>
@@ -143,17 +148,21 @@ Search bar background color white, opacity 80%
 Box shadow 0 0 19 -2 black opacity 25%
 This element required creating a second row in the hero banner. To achieve the desired outcome, I worked on the position and margins. 
 <br><br>
-<img src="Cookery Samples/Navbar and Mobile Menu/cookery-live.png">
-<img src="Cookery Samples/Search Bar/searchHTML.png">
-<img src="Cookery Samples/Search Bar/Search-CSS.png">
+<div>
+  <img src="Cookery Samples/Navbar and Mobile Menu/cookery-live.png">
+  <img src="Cookery Samples/Search Bar/searchHTML.png" width="500" height="293">
+
+</div>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="recipe">Create Featured Recipe Section</h2>
 The client wanted a featured recipe section that showcased a photo of the finished recipe, a brief description of the recipe, a button to view the recipe, and a bar at the bottom of the recipe car that holds social icons. Here I utilized Bootstrap Cards and Font Awesome. I again struggled with responsiveness here too, but ultimately I ran out of time. I plan to continue playing with this outside of my internship and will update later. 
 <br><br>
-<img src="Cookery Samples/Featured Recipe/recipe-live.png">
-<img src="Cookery Samples/Featured Recipe/RecipeHTML.png">
-<img src="Cookery Samples/Featured Recipe/Recipe-CSS.png">
+<div>
+  <img src="Cookery Samples/Featured Recipe/recipe-live.png">
+  <img src="Cookery Samples/Featured Recipe/RecipeHTML.png">
+  <img src="Cookery Samples/Featured Recipe/Recipe-CSS.png">
+</div>
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="update">Update Featured Recipe</h2>
