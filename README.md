@@ -7,7 +7,7 @@
 <body>
 <h1 id="Introduction">Front-end Web Development Live Project</h1>
 <h2>Introduction</h2>
-<p>My time at the Tech Academy included an internship with Prosper IT Consulting, during which I 
+<p>My time at the <a href="https://www.learncodinganywhere.com">Tech Academy</a> included an internship with <a href="https://www.linkedin.com/company/prosper-it-consulting/">Prosper IT Consulting</a>, during which I 
 participated in a 2-week sprint.
  This hands-on experience included Agile/Scrum practices including:  
  participating in daily stand-ups, a sprint retrospective, and using Azure DevOps to complete stories. 
