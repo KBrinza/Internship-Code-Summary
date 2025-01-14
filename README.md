@@ -103,9 +103,9 @@ Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="
 <h2 id="navbar">Create a Navigation Menu</h2>
 Here we had to create a Navigation Menu with a submenu using bootstrap. I then further styled it following the client parameters which included a dropshadow on the navbar, background and text colors, navbar height, font size and weight, and removing the down arrow from the submenu.
 <br><br>
-<img src="Cookery Samples/Navbar and Mobile Menu/NavbarHTML.png" width="500" height="503">
 <img src="Cookery Samples/Navbar and Mobile Menu/Dropdown-CSS.png">
 <img src="Cookery Samples/Navbar and Mobile Menu/DropdownMenu-live.png" width="300" height="261">
+<img src="Cookery Samples/Navbar and Mobile Menu/NavbarHTML.png" width="500" height="503">
 Go back to <a href="#contents">Table of Contents</a> or back to top of <a href="#cookery">Cookery</a>.
 
 <h2 id="mobile">Change Mobile Menu Icon</h2>
