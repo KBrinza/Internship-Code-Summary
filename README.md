@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
 <body>
-<h1>Front-end Web Development Live Project</h1>
-<h2 id="Introduction">Introduction</h2>
+<h1 id="Introduction">Front-end Web Development Live Project</h1>
+<h2>Introduction</h2>
 <p>My time at the Tech Academy included an internship with Prosper IT Consulting, during which I 
 participated in a 2-week sprint.
  This hands-on experience included Agile/Scrum practices including:  
